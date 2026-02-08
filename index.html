@@ -1,0 +1,80 @@
+data:text/html;charset=utf-8,
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>For Sotu 💕</title>
+<style>
+body {
+  background: linear-gradient(#fff5f8, #ffe8f0);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding-top: 70px;
+}
+h1 {
+  color: #c9184a;
+  font-size: 38px;
+}
+p {
+  color: #6a040f;
+  font-size: 20px;
+}
+button {
+  padding: 14px 34px;
+  font-size: 18px;
+  margin: 18px;
+  border-radius: 35px;
+  border: none;
+  cursor: pointer;
+}
+#yes {
+  background-color: #ff4d6d;
+  color: white;
+}
+#no {
+  background-color: #adb5bd;
+  color: white;
+}
+#result {
+  margin-top: 40px;
+  font-size: 24px;
+  color: #9d0208;
+}
+img {
+  width: 230px;
+  margin-top: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>💖 Hey Sotu 💖</h1>
+<p>Out of all the people, all the moments,<br>
+I choose <b>you</b> — today, tomorrow, always.</p>
+
+<h1>Will you be mine forever? 💍</h1>
+
+<button id="yes" onclick="yesClick()">Yes 💕</button>
+<button id="no" onclick="noClick()">No 💔</button>
+
+<div id="result"></div>
+
+<script>
+function yesClick() {
+  document.getElementById("result").innerHTML =
+  "YAYYYYY!!! 💃🕺💖<br><br>" +
+  "<b>Pulli loves you</b> 🐻💞<br>" +
+  "Forever & always… it’s you 🤍<br>" +
+  "<img src='https://i.imgur.com/3XjQZQp.gif'>";
+}
+
+function noClick() {
+  document.getElementById("result").innerHTML =
+  "Oh no… 🥺💔<br>" +
+  "Bubu is crying and Pulli is sad…<br>" +
+  "<img src='https://i.imgur.com/0F9Yw6p.gif'>";
+}
+</script>
+
+</body>
+</html>
